@@ -7,9 +7,7 @@ let securityHeaders = {
 	"Referrer-Policy" : "strict-origin-when-cross-origin",
 }
 
-let sanitiseHeaders = {
-	"Server" : "My New Server Header!!!",
-}
+let sanitiseHeaders = {}
 
 let removeHeaders = [
 	"Public-Key-Pins",
